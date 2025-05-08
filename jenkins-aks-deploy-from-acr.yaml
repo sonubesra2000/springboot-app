@@ -15,6 +15,7 @@ spec:
       containers:
       - name: my-springboot-app
         image: myacrrepo3210.azurecr.io/myacrrepo3210:latest
+        Name: UNOS
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
