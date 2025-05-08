@@ -17,7 +17,7 @@ spec:
         image: myacrrepo3210.azurecr.io/myacrrepo3210:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 8085
+        - containerPort: 8086
 # service type loadbalancer       
 ---
 apiVersion: v1
